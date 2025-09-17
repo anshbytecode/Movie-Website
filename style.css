@@ -1,24 +1,7 @@
-/*-----------------------------------*\
- * #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2024
- */
-
-
-
-
-
-/*-----------------------------------*\
- * #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
-  /**
-   * colors
-   */
+ 
 
   --rich-black-fogra-29: hsl(225, 25%, 9%);
   --rich-black-fogra-39: hsl(170, 21%, 5%);
@@ -35,10 +18,7 @@
   --black: hsl(0, 0%, 0%);
   --jet: hsl(0, 0%, 20%);
 
-  /**
-   * typography
-   */
-
+  
   --ff-poppins: 'Poppins', sans-serif;
 
   --fs-1: 36px;
@@ -57,17 +37,12 @@
   --fw-500: 500;
   --fw-700: 700;
 
-  /**
-   * transition
-   */
+  
 
   --transition-1: 0.15s ease;
   --transition-2: 0.25s ease-in;
 
-  /**
-   * spacing
-   */
-
+ 
   --section-padding: 100px;
 
 }
@@ -76,9 +51,6 @@
 
 
 
-/*-----------------------------------*\
- * #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -124,15 +96,9 @@ body.active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
- * #REUSED STYLE
-\*-----------------------------------*/
 
 .container { padding-inline: 15px; }
 
-/**
- * TITLES & SUBTITLES
- */
 
 .h1,
 .h2,
@@ -159,9 +125,6 @@ body.active { overflow: hidden; }
 
 .section-title { text-align: center; }
 
-/**
- * BADGE
- */
 
 .badge {
   color: var(--white);
@@ -178,9 +141,7 @@ body.active { overflow: hidden; }
 
 .badge-outline { border-color: var(--white); }
 
-/**
- * MOVIE META
- */
+
 
 .meta-wrapper {
   display: flex;
@@ -225,9 +186,6 @@ body.active { overflow: hidden; }
   color: var(--citrine);
 }
 
-/**
- * BUTTONS
- */
 
 .btn {
   color: var(--white);
@@ -253,9 +211,7 @@ body.active { overflow: hidden; }
   color: var(--xiketic);
 }
 
-/**
- * MOVIE CARD
- */
+
 
 .movies-list {
   display: grid;
@@ -344,9 +300,7 @@ body.active { overflow: hidden; }
   color: var(--citrine);
 }
 
-/**
- * CUSTOM SLIDER & SCROLLBAR
- */
+
 
 .movies-list.has-scrollbar {
   display: flex;
@@ -376,9 +330,6 @@ body.active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
- * #HEADER
-\*-----------------------------------*/
 
 .header {
   position: fixed;
@@ -493,9 +444,7 @@ body.active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
- * #HERO
-\*-----------------------------------*/
+
 
 .hero {
   background: url("../images/hero-bg.jpg") no-repeat;
